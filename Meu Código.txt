@@ -1,3 +1,5 @@
+Link: https://www.youtube.com/watch?v=kB5e-gTAl_s
+
 1) Criar pastas
 2) Botão direito
 3) Open Git bash here
@@ -12,3 +14,16 @@ git commit -m "mensagem" -> Mensagem
 git remote add origin (Colar Link - Botão direito - Paste)
 git push --set-upstream origin master (Caso for a primeira vez)
 git push -> Subir o arquivo no GitHub
+git reflog -> Ver o histórico
+
+[Avançados]
+git reset --hard (ID do reflog) -> Voltar para a versão anterior se tiver bug
+
+Branch (Versão)
+Master - onde só tem código que funciona
+staging - código diversos
+Quando um código é transferido para a Master, processo chamado "MERGE"
+
+git branch -> Verificar branches disponiveis
+git branch (nome da branch) -> Adicionar branches
+git checkout staging -> Mudar a branch
