@@ -27,3 +27,16 @@ Quando um código é transferido para a Master, processo chamado "MERGE"
 git branch -> Verificar branches disponiveis
 git branch (nome da branch) -> Adicionar branches
 git checkout staging -> Mudar a branch
+
+
+[Merge]
+git checkout (branch destino)
+git pull -> baixar os códigos mais atuais
+git merge (branch fonte)
+git push
+
+[Criar branch com base em outra]
+git checkout -b (nome da nova) (branch base)
+
+[PULL REQUEST] - Solicitar alguem para revisar
+git push
