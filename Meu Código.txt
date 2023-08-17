@@ -1,1 +1,14 @@
-Teste do Git
+1) Criar pastas
+2) Botão direito
+3) Open Git bash here
+
+git init
+git status -> Veirica se tem algum arquivo não adicionado
+git add "Arquivo" -> Adição individual
+git add . -> Adiciona todos os arquivos pendentes listados
+git config --global user.email "sq_shin@hotmail.com"
+git config --global user.name "Shinichi Ishii"
+git commit -m "mensagem" -> Mensagem
+git remote add origin (Colar Link - Botão direito - Paste)
+git push --set-upstream origin master (Caso for a primeira vez)
+git push -> Subir o arquivo no GitHub
